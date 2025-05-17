@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div>
-      <nav className="bg-gradient-to-r from-green-400 to-yellow-500 py-2">
+      <nav className="bg-gradient-to-r from-blue-400 to-red-500 py-2">
         <div className="container mx-auto flex items-center justify-between">
           <div className="flex items-center">
             <a className="flex items-center" href="/">
@@ -17,37 +17,10 @@ export default function Home() {
               <li>
                 <a
                   className="text-white hover:text-gray-200"
-                  href="/"
-                  style={{ fontSize: "1.2em" }}
-                >
-                  MTN
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-white hover:text-gray-200"
-                  href="/"
-                  style={{ fontSize: "1.2em" }}
-                >
-                  AirtelTigo
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-white hover:text-gray-200"
-                  href="/"
-                  style={{ fontSize: "1.2em" }}
-                >
-                  Telecel
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-white hover:text-gray-200"
                   href="https://wa.me/233533941961"
                   style={{ fontSize: "1.2em" }}
                 >
-                  Become Agent
+                  Become an Agent
                 </a>
               </li>
             </ul>
